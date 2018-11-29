@@ -32,7 +32,7 @@ public class JackOLantern
             for (int ii = 0; ii < faceFeatures[i].length; ii++)
             {
                 toString = toString + faceFeatures[i][ii];
-                if (ii == faceFeatures[i].length) {
+                if (ii == faceFeatures[i].length - 1) {
                     toString = toString + "\n";
                 }
             }
